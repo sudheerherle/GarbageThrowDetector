@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/sudheer/.gradle/daemon/8.2/com.garbagethrowdetector.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "/Users/sudheer/.gradle/daemon/8.2/com.garbagethrowdetector.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sudheer/.gradle/daemon/8.2/com.garbagethrowdetector.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/sudheer/.gradle/daemon/8.2/com.garbagethrowdetector.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.garbagethrowdetector.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "com.garbagethrowdetector.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sudheer/.gradle/daemon/8.2/com.garbagethrowdetector.app-merged_res-28:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/sudheer/.gradle/daemon/8.2/com.garbagethrowdetector.app-main-30:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/sudheer/.gradle/daemon/8.2/com.garbagethrowdetector.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/sudheer/.gradle/daemon/8.2/com.garbagethrowdetector.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

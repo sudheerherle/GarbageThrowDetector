@@ -1,0 +1,93 @@
+> Task :clean
+> Task :app:clean
+> Task :opencv:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :opencv:preBuild UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :opencv:preDebugBuild UP-TO-DATE
+> Task :opencv:generateDebugResValues
+> Task :opencv:generateDebugResources
+> Task :opencv:packageDebugResources
+> Task :app:packageDebugResources
+> Task :app:javaPreCompileDebug
+> Task :opencv:writeDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :opencv:parseDebugLocalResources
+> Task :app:parseDebugLocalResources
+
+> Task :opencv:processDebugManifest
+package="org.opencv" found in source AndroidManifest.xml: /Users/sudheer/GarbageThrowDetector/opencv/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="org.opencv" from the source AndroidManifest.xml: /Users/sudheer/GarbageThrowDetector/opencv/src/main/AndroidManifest.xml.
+
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:checkDebugAarMetadata
+> Task :app:extractDeepLinksDebug
+> Task :opencv:extractDeepLinksDebug
+> Task :opencv:generateDebugRFile
+> Task :app:processDebugMainManifest
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifest
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :opencv:compileDebugLibraryResources
+> Task :opencv:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+
+> Task :opencv:compileDebugJavaWithJavac FAILED
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+/Users/sudheer/GarbageThrowDetector/opencv/src/main/java/org/opencv/android/AsyncServiceHelper.java:7: error: package org.opencv.engine does not exist
+import org.opencv.engine.OpenCVEngineInterface;
+                        ^
+/Users/sudheer/GarbageThrowDetector/opencv/src/main/java/org/opencv/android/AsyncServiceHelper.java:47: error: cannot find symbol
+    protected OpenCVEngineInterface mEngineService;
+              ^
+  symbol:   class OpenCVEngineInterface
+  location: class AsyncServiceHelper
+/Users/sudheer/GarbageThrowDetector/opencv/src/main/java/org/opencv/android/CameraBridgeViewBase.java:5: error: cannot find symbol
+import org.opencv.BuildConfig;
+                 ^
+  symbol:   class BuildConfig
+  location: package org.opencv
+/Users/sudheer/GarbageThrowDetector/opencv/src/main/java/org/opencv/android/JavaCameraView.java:15: error: cannot find symbol
+import org.opencv.BuildConfig;
+                 ^
+  symbol:   class BuildConfig
+  location: package org.opencv
+/Users/sudheer/GarbageThrowDetector/opencv/src/main/java/org/opencv/android/AsyncServiceHelper.java:161: error: package OpenCVEngineInterface does not exist
+            mEngineService = OpenCVEngineInterface.Stub.asInterface(service);
+                                                  ^
+/Users/sudheer/GarbageThrowDetector/opencv/src/main/java/org/opencv/android/CameraBridgeViewBase.java:429: error: cannot find symbol
+                if (BuildConfig.DEBUG)
+                    ^
+  symbol:   variable BuildConfig
+  location: class CameraBridgeViewBase
+/Users/sudheer/GarbageThrowDetector/opencv/src/main/java/org/opencv/android/JavaCameraView.java:302: error: cannot find symbol
+        if (BuildConfig.DEBUG)
+            ^
+  symbol:   variable BuildConfig
+  location: class JavaCameraView
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+7 errors
+3 warnings
+
+> Task :app:processDebugManifestForPackage
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':opencv:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 11s
+28 actionable tasks: 28 executed

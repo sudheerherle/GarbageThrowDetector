@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.garbagethrowdetector"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:5:5-84
+12        android:name="android.hardware.camera"
+12-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:5:19-57
+13        android:required="true" />
+13-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:5:58-81
+14    <uses-feature
+14-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:6:5-95
+15        android:name="android.hardware.camera.autofocus"
+15-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:6:19-67
+16        android:required="false" />
+16-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:6:68-92
+17
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:8:5-65
+18-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:8:22-62
+19    <uses-permission
+19-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:9:5-10:38
+20        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+20-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:9:22-78
+21        android:maxSdkVersion="32" />
+21-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:10:9-35
+22    <uses-permission
+22-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:11:5-12:38
+23        android:name="android.permission.READ_EXTERNAL_STORAGE"
+23-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:11:22-77
+24        android:maxSdkVersion="32" />
+24-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:12:9-35
+25    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+25-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:13:5-76
+25-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:13:22-73
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] /Users/sudheer/.gradle/caches/transforms-3/f0f4ee7c3b88100b2d2cd4b05ab423cd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+28        android:name="com.garbagethrowdetector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] /Users/sudheer/.gradle/caches/transforms-3/f0f4ee7c3b88100b2d2cd4b05ab423cd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] /Users/sudheer/.gradle/caches/transforms-3/f0f4ee7c3b88100b2d2cd4b05ab423cd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.garbagethrowdetector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.9.0] /Users/sudheer/.gradle/caches/transforms-3/f0f4ee7c3b88100b2d2cd4b05ab423cd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] /Users/sudheer/.gradle/caches/transforms-3/f0f4ee7c3b88100b2d2cd4b05ab423cd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:15:5-32:19
+34        android:allowBackup="true"
+34-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:16:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.9.0] /Users/sudheer/.gradle/caches/transforms-3/f0f4ee7c3b88100b2d2cd4b05ab423cd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:17:9-43
+39        android:label="@string/app_name"
+39-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:18:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:19:9-54
+41        android:supportsRtl="true"
+41-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:20:9-35
+42        android:theme="@style/Theme.GarbageThrowDetector" >
+42-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:21:9-58
+43        <activity
+43-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:23:9-31:20
+44            android:name="com.garbagethrowdetector.MainActivity"
+44-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:24:13-41
+45            android:exported="true"
+45-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:25:13-36
+46            android:screenOrientation="portrait" >
+46-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:26:13-49
+47            <intent-filter>
+47-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:27:13-30:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:28:17-69
+48-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:28:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:29:17-77
+50-->/Users/sudheer/GarbageThrowDetector/app/src/main/AndroidManifest.xml:29:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/sudheer/.gradle/caches/transforms-3/4ef2d37eca9ad04b2c397a091ea18fe4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/sudheer/.gradle/caches/transforms-3/4ef2d37eca9ad04b2c397a091ea18fe4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+56            android:authorities="com.garbagethrowdetector.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/sudheer/.gradle/caches/transforms-3/4ef2d37eca9ad04b2c397a091ea18fe4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/sudheer/.gradle/caches/transforms-3/4ef2d37eca9ad04b2c397a091ea18fe4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/sudheer/.gradle/caches/transforms-3/4ef2d37eca9ad04b2c397a091ea18fe4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/sudheer/.gradle/caches/transforms-3/4ef2d37eca9ad04b2c397a091ea18fe4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/sudheer/.gradle/caches/transforms-3/4ef2d37eca9ad04b2c397a091ea18fe4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/sudheer/.gradle/caches/transforms-3/a4c8d0ec904ebc7ffc6031b8d3671ae8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/sudheer/.gradle/caches/transforms-3/a4c8d0ec904ebc7ffc6031b8d3671ae8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/sudheer/.gradle/caches/transforms-3/a4c8d0ec904ebc7ffc6031b8d3671ae8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>

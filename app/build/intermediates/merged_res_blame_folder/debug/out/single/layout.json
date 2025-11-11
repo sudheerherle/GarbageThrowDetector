@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/sudheer/.gradle/daemon/8.2/com.garbagethrowdetector.app-mergeDebugResources-27:/layout/activity_main.xml",
+        "source": "/Users/sudheer/.gradle/daemon/8.2/com.garbagethrowdetector.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.garbagethrowdetector.app-mergeDebugResources-27:/layout/activity_main.xml",
+        "source": "com.garbagethrowdetector.app-main-30:/layout/activity_main.xml"
+    }
+]
